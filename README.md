@@ -34,7 +34,7 @@ python run_all.py           # starts all 4 agents (ports 8000-8003)
 1. Each agent logs an **Agent Inspector** link → open it → **Connect → Mailbox**. Do this for all four.
 2. Copy the Weather / Places / Budget **addresses** from the logs into `.env` (`*_AGENT_ADDRESS`), then restart. (Skip this and the orchestrator just uses its local fallbacks.)
 3. In Agentverse, open the **orchestrator** agent profile → paste `AGENTVERSE_README.md` as its overview (important for ASI:One discovery) → verify the Chat Protocol shows.
-4. Open https://asi1.ai/chat → enable **Agents** → ask: *"Plan a 3-day trip to Jaipur from Delhi next weekend under ₹15,000"*. Click **Confirm**.
+4. Open https://asi1.ai/ai/agent1qg2atark6shw2xdvmhfd8vjqj3a2stmsflyfntlk8tde6v0ltxg6jsuvlmp → enable **Agents** → ask: *"Plan a 3-day trip to Jaipur from Delhi next weekend under ₹15,000"*. Click **Confirm**.
 5. Test cards without ASI:One: Agentverse → agent → **Testing** tab, or https://asi1.ai/developer/card-playground.
 
 Offline tests (no network): `pytest -q`
